@@ -4,9 +4,6 @@
   <meta charset="{{encoding}}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>{{title}}</title>
-  <link rel="stylesheet" href="reveal/reveal.min.css">
-  <link rel="stylesheet" href="reveal/default_reveal_theme.css">
-  <link rel="stylesheet" href="reveal/zenburn.css">
   <style type="text/css">
     {{{style}}}
   </style>
@@ -17,16 +14,8 @@
       {{{slideshow}}}
     </div>
 </div>
-<script type="text/javascript" src='reveal/script.js'></script>
 <script>
-     Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
-        theme: 'default',
-        transition: 'default'
-    })
+    {{script}}
 </script>
 </body>
 </html>
