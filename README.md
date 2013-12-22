@@ -1,19 +1,18 @@
 cleaver-template
 ================
 
-Jump start your [cleaver](https://github.com/jdan/cleaver) presentation in no time.
+[Reveal.js](https://github.com/hakimel/reveal.js/) theme for [cleaver](https://github.com/jdan/cleaver).
 
-Reinventing `cleaver watch` functionality but also sprinkling it with [livereload](http://livereload.com/) & [static server](https://npmjs.org/package/connect) functionality via awesome grunt packages (see package.json dependency list for names).
+Small demo (sorry for image quality, will work on it) using [cleaver-template](https://github.com/sudodoki/cleaver-template)
+![Sample usage](sample.gif)
 
 
 How to run this?
 ================
 Steps:  
-1.   `npm install` to install all dependencies.  
-2a.  `grunt` to output compiled index.md to index.html.  
-2b.  `grunt build:%Name of you md file%` to output compiled %name%.md to output and have that.  
-
-Both tasks will also start the static server at 8080 and open it in your browser
+1.   `git clone https://github.com/sudodoki/cleaver-template.git` into your presentation folder
+2. Copy reveal/reveal into your presentation folder (will work on this one, stay cool)
+3. Set `theme: reveal` in your metadata.
 
 Have any question/proposals?
 ============================
