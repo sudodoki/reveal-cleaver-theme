@@ -9,7 +9,7 @@ Small demo (sorry for image quality, will work on it) using [cleaver-template](h
 
 How to use this?
 ================
-Set theme: sudodoki/reveal-cleaver-theme.
+Set theme: sudodoki/reveal-cleaver-theme
 
 Have any question/proposals?
 ============================
