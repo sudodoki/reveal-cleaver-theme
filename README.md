@@ -10,8 +10,8 @@ Small demo (sorry for image quality, will work on it) using [cleaver-template](h
 How to run this?
 ================
 Steps:  
-1. `git clone https://github.com/sudodoki/reveal-cleaver-theme reveal` into your presentation folder
-2. Set `theme: reveal` in your metadata.
+  1. `git clone https://github.com/sudodoki/reveal-cleaver-theme reveal` into your presentation folder.
+  2. Set `theme: reveal` in your metadata.
 
 If you are wondering 'Why is it not regular username/reponame that cleaver does support?' the answer is 'we are adding files that are not supported via this format'.
 Resulting slideshow cannot be used without external resources (i.e. goole fonts, css/js/fonts in folder) - be aware of that.
