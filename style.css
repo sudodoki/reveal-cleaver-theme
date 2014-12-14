@@ -182,7 +182,7 @@ section .inline-code {
   word-wrap: break-word;
   box-shadow: 0 0 6px rgba(0,0,0,.3);
 }
-ul.small-list li, 
+ul.small-list li,
 ol.small-list li {
   margin: 12px 0;
   font-size: 80%;
@@ -324,4 +324,15 @@ pre .tex .formula {
 }
 code {
   background-color: #3F3F3F !important;
+}
+
+/*********************************************
+ * Extra stuff for reveal-cleaver
+ *********************************************/
+.reveal h4 .roll, .reveal h4,
+.reveal h3 .roll, .reveal h3,
+.reveal h2 .roll, .reveal h2,
+.reveal h1 .roll, .reveal h1 {
+  line-height: 100%;
+  vertical-align: top;
 }
